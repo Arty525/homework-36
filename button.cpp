@@ -28,9 +28,9 @@ ImgButton::ImgButton(QWidget *parent) {
 	setParent(parent);
 	setToolTip("Стоп");
 	setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-	mButtonGreenPixmap = QPixmap("C:\\Users\\newar\\Pictures\\skillbox\\green.png");
-	mButtonYellowPixmap = QPixmap("C:\\Users\\newar\\Pictures\\skillbox\\yellow.png");
-	mButtonRedPixmap = QPixmap("C:\\Users\\newar\\Pictures\\skillbox\\red.png");
+	mButtonGreenPixmap = QPixmap("green.png");
+	mButtonYellowPixmap = QPixmap("yellow.png");
+	mButtonRedPixmap = QPixmap("C:red.png");
 	mCurrentButtonPixmap = mButtonGreenPixmap;
 	setGeometry(mCurrentButtonPixmap.rect());
 }
